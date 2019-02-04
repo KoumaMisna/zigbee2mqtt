@@ -7,7 +7,9 @@ Once you see something similar to `New device with address 0x00159d00016da0c8 co
 
 ## Xiaomi
 Different devices require different pairing methods. In case you get an `Error [ERR_UNHANDLED_ERROR]: Unhandled error. (Cannot get the Node Descriptor of the Device: 0x00158d0001720111)` you should try a different pairing method. See [Supported devices](../information/supported_devices.md) to figure out if your device is MiJia or Aqara.
-* Most MiJia devices: press and hold the reset button on the device for +- 5 seconds (until the blue light starts blinking). **IMPORTANT**: Release and start pressing the reset button every second. This keeps the device awake, otherwise pairing will **fail!**.
+* Most MiJia devices: press and hold the reset button on the device for +- 5 seconds (until the blue light starts blinking).
+  * Xiaomi/Honeywell smoke: Press the pairing button rapidly three times and keep pushin it every second until pairing is successful.
+**IMPORTANT**: Release and start pressing the reset button every second. This keeps the device awake, otherwise pairing will **fail!**.
 * Most Aqara devices: press and hold reset button on the device for +- 5 seconds until the blue light blinks three times, release the reset button (the blue light will blink once more) and wait.
 * Most Aqara wall switches: press and hold the button on the device for +- 10 seconds (until the blue light starts blinking and stops blinking), release and wait.
 * [Video: Pairing Xiaomi Aqara Cube MFKZQ01LM](https://www.youtube.com/watch?v=uhMrcIAdGxg&feature=youtu.be)
